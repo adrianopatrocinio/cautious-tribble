@@ -37,17 +37,4 @@ class IndexArtista(object):
         self.genre = Gênero(genero)
         self.toplyrics = Toplyrics(toplyrics)
         self.albuns = Álbuns(albuns)
-##   class Artista(object):
-##        return a + b
-##
-##  def subtrai(self, a, b):
-##    return a - b
-##
-##  def multiplica(self, a, b):
-##    return a * b
-##
-##  def divide(self, a, b):
-##    return a / b
-##
-##response = requests.get('https://api.vagalume.com.br/rankartist.php', params={'type': 'art','period':'week','scope':'internacional' , 'limit':'2'})
-##response = requests.get('https://api.vagalume.com.br/search.php', params={'art':'matanza'})
+
